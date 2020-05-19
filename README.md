@@ -31,9 +31,11 @@ Final2.m (data.mat with C=2 integrated for all classifiers)
 •	In case you plan to manually assign dataset index, you can do so to the Dt_test but make sure 
   you change the value of the variables, train_set and test_set, since it keeps a count of how 
   many samples are being used for training and testing.
-    o	E.g. Say you want to test the pose.mat
-    You want to assign 4 values to testing, j = 1, 3, 7, 9 to Dt_test, and rest 9 to training, 
-    Dt_train, you can do so. Just change the variable: test_set = (4 values) * 68 = 272 and 
-    train_set = (9 values) * 68 = 612.
-    When you change the number of testing indices, you will have to change the variable named 
-    test_set and train_set too. Else accuracy won’t be calculated correctly/accurately.
+  
+  
+  E.g. Say you want to test the pose.mat
+  You want to assign 4 values to testing, j = 1, 3, 7, 9 to Dt_test, and rest 9 to training, 
+  Dt_train, you can do so. Just change the variable: test_set = (4 values) * 68 = 272 and 
+  train_set = (9 values) * 68 = 612.
+  When you change the number of testing indices, you will have to change the variable named 
+  test_set and train_set too. Else accuracy won’t be calculated correctly/accurately.
